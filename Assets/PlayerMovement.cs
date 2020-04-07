@@ -6,8 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public Rigidbody rb;
+   
 
     public float forwardForce = 50f;
+    
 
     // Update is called once per frame
     void FixedUpdate()
@@ -17,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
         if ( Input.GetKey("d"))
         {
             rb.AddForce(500 * Time.fixedDeltaTime, 0, 0);
+            
         }
         if (Input.GetKey("a"))
         {

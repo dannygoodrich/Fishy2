@@ -63,7 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EnemyMovement.cs" />
     <Compile Include="Assets\NewPlayableAsset.cs" />
+    <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/danielgoodrich/Desktop/SEI29/units/projects/project4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
