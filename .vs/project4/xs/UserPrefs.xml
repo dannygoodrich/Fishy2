@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FollowPlayer.cs">
     <Files>
       <File FileName="Assets/PlayerMovement.cs" Line="12" Column="5" />
-      <File FileName="Assets/PlayerController.cs" Line="40" Column="58" />
-      <File FileName="Assets/EnemyMovement.cs" Line="36" Column="1" />
-      <File FileName="Assets/CollisionDetection.cs" Line="1" Column="1" />
-      <File FileName="Assets/FollowPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/PlayerController.cs" />
+      <File FileName="Assets/EnemyMovement.cs" />
+      <File FileName="Assets/CollisionDetection.cs" Line="19" Column="45" />
+      <File FileName="Assets/FollowPlayer.cs" Line="13" Column="54" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

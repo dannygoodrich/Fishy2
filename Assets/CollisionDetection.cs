@@ -9,8 +9,9 @@ public class CollisionDetection : MonoBehaviour
         if (transform.localScale.x < 0)
         {
             transform.localScale += new Vector3(-.2f, .2f);
-            Destroy(collisionInfo.collider);
+            Destroy(collisionInfo.gameObject);
             Debug.Log(collisionInfo.collider);
+            Debug.Log(collisionInfo);
 
         }
         else if (transform.localScale.x > 0)
