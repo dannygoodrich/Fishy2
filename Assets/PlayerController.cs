@@ -5,7 +5,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
 
-	// What is the maximum speed we want Bob to walk at
+	
 	private float maxSpeed = 10f;
 
 	// Start facinf left (like the sprite-sheet)
