@@ -63,14 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Score.cs" />
     <Compile Include="Assets\Underwater Diving\Scripts\CameraController.cs" />
     <Compile Include="Assets\Underwater Diving\Scripts\CollisionDetection.cs" />
     <Compile Include="Assets\Underwater Diving\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Underwater Diving\Scripts\FollowPlayer.cs" />
+    <Compile Include="Assets\Underwater Diving\Scripts\GameManager.cs" />
     <Compile Include="Assets\Underwater Diving\Scripts\NewPlayableAsset.cs" />
     <Compile Include="Assets\Underwater Diving\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Underwater Diving\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Underwater Diving\Scripts\Score.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/danielgoodrich/Desktop/SEI29/units/projects/project4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
