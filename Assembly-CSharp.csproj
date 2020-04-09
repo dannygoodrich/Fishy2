@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EndTrigger.cs" />
+    <Compile Include="Assets\PlayerController(broken?).cs" />
     <Compile Include="Assets\Underwater Diving\Scripts\CameraController.cs" />
     <Compile Include="Assets\Underwater Diving\Scripts\CollisionDetection.cs" />
     <Compile Include="Assets\Underwater Diving\Scripts\EnemyMovement.cs" />

@@ -13,6 +13,7 @@ public class Score : MonoBehaviour
     void Update()
     {
         //Debug.Log(player.localScale.y);
-        scoreText.text = player.localScale.y.ToString("0");
+        scoreText.text = player.localScale.z.ToString("0");
+        
     }
 }

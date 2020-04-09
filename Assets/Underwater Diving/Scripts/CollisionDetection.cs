@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CollisionDetection : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class CollisionDetection : MonoBehaviour
 
             if (transform.localScale.x < 0)
             {
-                transform.localScale += new Vector3(-.2f, .2f);
+                transform.localScale += new Vector3(-.2f, .2f, 1);
                 Destroy(collisionInfo.gameObject);
                 Debug.Log(collisionInfo.collider);
                 Debug.Log(collisionInfo);
@@ -19,12 +20,13 @@ public class CollisionDetection : MonoBehaviour
             }
             else if (transform.localScale.x > 0)
             {
-                transform.localScale += new Vector3(.2f, .2f);
+                transform.localScale += new Vector3(.2f, .2f, 1);
                 Destroy(collisionInfo.gameObject);
             }
             //transform.localScale += new Vector3(Math.Abs(1.01f), 1.01f);
             //transform.localScale += new Vector3(1.01f, 1.01f);
             Debug.Log("hit something!");
+            
         }
         else if (transform.localScale.y < collisionInfo.gameObject.transform.localScale.y)
         {

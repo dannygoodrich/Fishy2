@@ -1,38 +1,17 @@
 ﻿<Properties StartupConfiguration="{2FA86D2E-88B4-5FE9-EBFC-1CBFD603A996}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Underwater Diving/Scripts/CollisionDetection.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerController(broken?).cs">
     <Files>
-      <File FileName="Assets/PlayerMovement.cs" Line="12" Column="5" />
-      <File FileName="Assets/PlayerController.cs" />
-      <File FileName="Assets/EnemyMovement.cs" />
-      <File FileName="Assets/FollowPlayer.cs" Line="12" Column="6" />
-      <File FileName="Assets/Score.cs" Line="16" Column="45" />
-      <File FileName="Assets/GameManager.cs" Line="9" Column="32" />
-      <File FileName="Assets/Underwater Diving/Scripts/CollisionDetection.cs" Line="1" Column="1" />
+      <File FileName="Assets/Underwater Diving/Scripts/CollisionDetection.cs" Line="23" Column="64" />
+      <File FileName="Assets/Underwater Diving/Scripts/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Underwater Diving/Scripts/Score.cs" Line="16" Column="25" />
+      <File FileName="Assets/Underwater Diving/Scripts/GameManager.cs" Line="17" Column="6" />
+      <File FileName="Assets/EndTrigger.cs" Line="15" Column="1" />
+      <File FileName="Assets/PlayerController(broken?).cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="project4" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Underwater Diving" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="CollisionDetection.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="project4" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="68dc77a3-b9f1-4803-b280-902821f1e7c9" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a01773af-de9a-4c6d-bf59-0f72616b24d2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
