@@ -38,7 +38,7 @@ public class CollisionDetection : MonoBehaviour
         //}
         if (transform.localScale.y < collisionInfo.gameObject.transform.localScale.y)
         {
-            //FindObjectOfType<GameManager>().CompleteLevel();
+            FindObjectOfType<GameManager>().CompleteLevel();
             FindObjectOfType<GameManager>().EndGame();
         }
     }
