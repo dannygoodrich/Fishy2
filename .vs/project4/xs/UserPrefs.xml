@@ -1,12 +1,15 @@
 ﻿<Properties StartupConfiguration="{2FA86D2E-88B4-5FE9-EBFC-1CBFD603A996}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerController(broken?).cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Underwater Diving/Scripts/FollowPlayer.cs">
     <Files>
-      <File FileName="Assets/Underwater Diving/Scripts/CollisionDetection.cs" Line="23" Column="64" />
-      <File FileName="Assets/Underwater Diving/Scripts/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Underwater Diving/Scripts/CollisionDetection.cs" Line="41" Column="13" />
+      <File FileName="Assets/Underwater Diving/Scripts/PlayerController.cs" Line="11" Column="2" />
       <File FileName="Assets/Underwater Diving/Scripts/Score.cs" Line="16" Column="25" />
-      <File FileName="Assets/Underwater Diving/Scripts/GameManager.cs" Line="17" Column="6" />
-      <File FileName="Assets/EndTrigger.cs" Line="15" Column="1" />
+      <File FileName="Assets/Underwater Diving/Scripts/GameManager.cs" Line="16" Column="41" />
+      <File FileName="Assets/EndTrigger.cs" Line="13" Column="41" />
       <File FileName="Assets/PlayerController(broken?).cs" Line="1" Column="1" />
+      <File FileName="Assets/Underwater Diving/Scripts/NewPlayableAsset.cs" Line="1" Column="1" />
+      <File FileName="Assets/Underwater Diving/Scripts/EnemyMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Underwater Diving/Scripts/FollowPlayer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
