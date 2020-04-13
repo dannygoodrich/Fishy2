@@ -5,11 +5,12 @@ using System.Collections;
 
 public class CollisionDetection : MonoBehaviour
 {
-    //public GameObeject END;
+    GameObject END;
     void OnCollisionEnter2D(UnityEngine.Collision2D collisionInfo)
     {
         Debug.Log(transform.localScale.x);
-        if (transform.localScale.y > collisionInfo.gameObject.transform.localScale.y)
+        END = GameObject.FindGameObjectWithTag("EndLevel");
+        if (transform.localScale.y > collisionInfo.gameObject.transform.localScale.y && collisionInfo.collider.CompareTag("enemy"))
         {
 
             if (transform.localScale.x < 0)
@@ -30,13 +31,14 @@ public class CollisionDetection : MonoBehaviour
             Debug.Log("hit something!");
 
         }
-        //if (collisionInfo.gameObject.FindWithTag("EndLevel");
+        //if (collisionInfo.collider.tag == "EndLevel")
         //{
-            //FindObjectOfType<GameManager>().CompleteLevel();
+        //    FindObjectOfType<GameManager>().CompleteLevel();
+        //    return;
         //}
         if (transform.localScale.y < collisionInfo.gameObject.transform.localScale.y)
         {
-            FindObjectOfType<GameManager>().CompleteLevel();
+            //FindObjectOfType<GameManager>().CompleteLevel();
             FindObjectOfType<GameManager>().EndGame();
         }
     }

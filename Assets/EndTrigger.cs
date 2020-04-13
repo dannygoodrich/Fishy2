@@ -6,9 +6,11 @@ public class EndTrigger : MonoBehaviour
 {
 
     public GameManager gameManager;
+    private object collisionInfo;
 
-    public void OnTriggerEnter()
+    public void OnTriggerEnter2D(Collider2D collider)
     {
+        if (collider.CompareTag("player"))
         gameManager.CompleteLevel();
     }
 }
