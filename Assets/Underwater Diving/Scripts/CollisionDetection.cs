@@ -1,9 +1,11 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class CollisionDetection : MonoBehaviour
 {
+    //public GameObeject END;
     void OnCollisionEnter2D(UnityEngine.Collision2D collisionInfo)
     {
         Debug.Log(transform.localScale.x);
@@ -26,10 +28,15 @@ public class CollisionDetection : MonoBehaviour
             //transform.localScale += new Vector3(Math.Abs(1.01f), 1.01f);
             //transform.localScale += new Vector3(1.01f, 1.01f);
             Debug.Log("hit something!");
-            
+
         }
-        else if (transform.localScale.y < collisionInfo.gameObject.transform.localScale.y)
+        //if (collisionInfo.gameObject.FindWithTag("EndLevel");
+        //{
+            //FindObjectOfType<GameManager>().CompleteLevel();
+        //}
+        if (transform.localScale.y < collisionInfo.gameObject.transform.localScale.y)
         {
+            FindObjectOfType<GameManager>().CompleteLevel();
             FindObjectOfType<GameManager>().EndGame();
         }
     }

@@ -7,7 +7,7 @@ public class EndTrigger : MonoBehaviour
 
     public GameManager gameManager;
 
-    void OnTriggerEnter(UnityEngine.Collider other)
+    public void OnTriggerEnter()
     {
         gameManager.CompleteLevel();
     }
